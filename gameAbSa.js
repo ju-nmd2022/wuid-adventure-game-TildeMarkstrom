@@ -27,27 +27,25 @@ bagPic.addEventListener('click', function(){
 })
 
 //DICE
-let myDices = Math.floor(Math.random()*6)+1;
-let hisDices = Math.floor(Math.random()*6)+1;
-  
+
 
 function rolldice(){
 let myDices = Math.floor(Math.random()*6)+1;
 let hisDices = Math.floor(Math.random()*6)+1;
 if(myDices > hisDices){
     console.log("you win!");
-    console.log("yours" + myDices);
-    console.log("his" + hisDices);
+    console.log("yours " + myDices);
+    console.log("his " + hisDices);
     alert("Congrats! You beat the thief with rolling your dice higher then he! You won the game!");
-}else if (myDices == hisDices){
+}else if (myDices === hisDices){
     console.log("tie, go again.");
-    console.log("yours" + myDices);
-    console.log("his" + hisDices);
+    console.log("your s" + myDices);
+    console.log("his " + hisDices);
     alert("tie, go again");
 }else{
     console.log("you lose!");
-    console.log("yours" + myDices);
-    console.log("his" + hisDices);
+    console.log("yours " + myDices);
+    console.log("his " + hisDices);
     alert("Aw, you lost against the thief, he took your bag and you go home empty handed... The End.");
 }} 
 
