@@ -29,9 +29,7 @@ bagPic.addEventListener('click', function(){
 //DICE
 let myDices = Math.floor(Math.random()*6)+1;
 let hisDices = Math.floor(Math.random()*6)+1;
-    
-console.log("yours " + myDices);
-console.log("his " + hisDices);
+  
 
 function rolldice(){
 let myDices = Math.floor(Math.random()*6)+1;
